@@ -1,0 +1,476 @@
+.header
+{ 
+  background-color: whitesmoke;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 120px;
+  z-index: +1;
+}
+
+.logo
+{
+  width:120px;
+  height:120px;
+  alt:logo of school;
+  position: fixed;
+  left: 0px;
+}
+
+.section1
+{
+    background-color: white;
+    display: inline-block;
+    width: 1220px;
+    height: 120px;
+    left:120px;
+    position: fixed;
+}
+
+.anchor1
+{
+    target:blank; 
+    text-align:center;
+	  text-transform:uppercase;
+	  font-size: 25px;
+    font-family:Convection Condensed;
+    text-decoration:none;
+    margin: 30px;
+    line-height:130px;
+    cursor: pointer;
+}
+.anchor1:link {color:#ff0000;}
+.anchor1:visited {color:#00ced1;}
+.anchor1:hover {font-size:200%;}
+
+.school1
+{
+  margin-top: 120px;
+  width:100%;
+
+}
+
+.section2
+{
+  padding:25px 20px 25px 20px;
+}
+
+.section3
+{
+  border: 1px solid blue;
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+}
+
+.heading1
+{
+   color: darkred;
+   text-align: center;
+   font-size: 25px;
+   font-family:Consolas;
+}
+
+.div1
+{
+  color: darkolivegreen;
+  text-align: center;
+  width:17em;
+  word-wrap: break-word;
+  font-size: 20px;
+  font-family:Consolas;
+}
+
+.section4
+{
+  background-color: ghostwhite;
+  display: inline-block;
+  padding: 10px; 
+  margin: 10px 25px;
+}
+
+.heading2
+{
+  color: forestgreen;
+  font-size: 30px;
+  font-family:Bahnschrift SemiBold;
+}
+
+.heading3
+{
+  color: crimson;
+  font-size: 25px;
+  font-family:Bahnschrift SemiBold;
+}
+
+.heading4
+{
+  color: royalblue;
+  font-size: 22px;
+  font-family: Bahnschrift SemiLight;
+}
+
+.div2
+{
+  color: darkgreen;
+  text-align: center;
+  width:17em;
+  height:148px;
+  word-wrap: break-word;
+  overflow-y: hidden;
+  font-size: 20px;
+  font-family:Bahnschrift SemiLight;
+}
+
+.school2
+{
+  width: 220px;
+  height: 220px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.section6
+{
+  width: 100%;
+  background-color: rgb(221, 209, 209);
+} 
+
+.section7
+{
+  display: inline-block; 
+  width: 33%;
+}
+
+.heading5
+{
+  color: darkblue;
+  padding-left: 10px;
+  font-size: 25px;
+  font-family:Lucida Console;
+}
+
+.social
+{
+  width: 60px;
+  height: 60px;
+}
+
+.anchor2
+{
+  
+  text-align:center;
+  color: crimson;
+	font-size: 20px;
+  font-family:Consolas;
+  text-decoration:none;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.section9
+{
+  margin-top: 120px;
+  position: relative;
+}
+
+.heading7
+{
+  color: crimson;
+  margin-left: 40px;
+  margin-top: 20px;
+  font-size: 35px;
+  font-family:Bahnschrift SemiBold;
+}
+
+.div3
+{
+  color: darkblue;
+  text-align: justify;
+  margin-left: 40px;
+  width: 60%;
+  font-size: 23px;
+  font-family:Bahnschrift SemiLight;
+}
+
+.founders
+{
+  width:288px;
+  height:398.4px;
+  alt:founders;
+  position: absolute;
+  right: 80px;
+  top: 30px;
+}
+
+.div4
+{
+  color: darkblue;
+  text-align: justify;
+  margin-left: 40px;
+  width: 89%;
+  font-size: 23px;
+  font-family:Bahnschrift SemiLight;
+}
+
+.section10
+{
+  margin-top: 120px;
+}
+
+.table
+{
+  border: solid red 1px;
+  background-color: lightsteelblue;
+  width: 50%;
+  height: 20%;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+.section11
+{
+  border-top: 7px double goldenrod;
+  padding:10px 5px 10px 5px;
+  background-color:whitesmoke;
+  margin: 50px 50px 0px 50px;
+}
+
+.school3
+{
+    width: 300px;
+    height: 250px;
+    margin: 10px 30px 10px 30px;
+    display: inline-block;
+
+}
+
+.header8
+{
+  color: brown;
+  font-size: 25px;
+  margin-left: 40px;
+}
+
+.section12
+{
+  width: 24%;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.myimage
+{
+  position:realtive;
+  width: 100%;
+}
+
+.slideshow
+{
+  display: none;
+}
+
+.number
+{
+  color: whitesmoke;
+  font-size: 25px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 130;
+  right: 50%;
+}
+
+.span1
+{
+  margin-left: 45%;
+}
+
+.dot
+{
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: orange;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  
+}
+.active {
+  background-color: orangered;
+}
+
+.button1
+{
+  background-color: teal;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 8px 8px 100px;
+  border: none;
+  cursor: pointer;
+}
+button:hover 
+{
+  opacity: 0.6;
+}
+
+.formcontainer
+{
+  text-align: center;
+  margin: 12px 0 12px 0;
+  position: relative;
+}
+
+.span2 {
+  position: absolute;
+  right: 20px;
+  top: 0px;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+.span2:hover,
+.span2:focus {
+  color: red;
+  cursor: pointer;
+}
+
+.section13 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 10px;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+}
+.animate
+ {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+.div5
+{
+  color: darkgreen;
+  text-align: center;
+  height:180px;
+  word-wrap: break-word;
+  overflow-y: visible;
+  font-size: 20px;
+  font-family:Bahnschrift SemiLight;
+}
+
+
+.flipcard
+{
+  padding:30px 30px;
+  background-color: transparent;
+  perspective: 1000px;
+  position: relative;
+  display: inline-block;
+}
+.flipcard-inner {
+  width: 225px;
+  height: 225px;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flipcard:hover .flipcard-inner {
+  transform: rotateY(180deg);
+}
+
+.frontside {
+  color: black;
+}
+
+.backside {
+  background-color: greenyellow;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+.frontside, .backside {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.languages
+{
+  width: 250px;
+  height: 250px;
+  position: fixed;
+  top: 10px;
+  right: 100px;  
+}
+
+.nobias
+{
+  width: 234px;
+  height: 156px;
+  position: fixed;
+  top: 50px;
+  right: 100px;
+}
+
+.teacher
+{
+  width: 285px;
+  height: 163px;
+  position: fixed;
+  top: 50px;
+  right: 100px;
+}
+
+.ownchoice
+{
+  width: 244.8px;
+  height: 270px;
+  position: fixed;
+  top: 50px;
+  right: 100px;
+}
+
+.doanddonts
+{
+  width: 253px;
+  height: 190px;
+  position: fixed;
+  top: 50px;
+  right: 90px;
+}
+
+.section14
+{
+  width: 35%;
+  display: inline-block;
+  padding: 10px;
+  border-left: 5px double rgb(101, 126, 201);
+  border-bottom: 5px double rgb(101, 126, 201);
+}
